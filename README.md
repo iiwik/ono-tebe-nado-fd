@@ -1,1 +1,1 @@
-https://github.com/iiwik/ono-tebe-nado
+https://github.com/iiwik/ono-tebe-nado-fd
