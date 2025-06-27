@@ -18,14 +18,13 @@
     list-style: circle;
 }
 
-.header__links-list li.header__link-active {
+li.header__link-active {
     list-style-type: none;
 }
 
-.header__links-list li.header__link-active a {
+li.header__link-active a {
     text-decoration: none;
 }
-
 
 .header .header-logo {
     width: 148px;
@@ -58,7 +57,7 @@
     overflow: hidden;
 }
 
-.cover .overlay {
+.overlay {
     position: absolute;
     background-color: rgba(0, 0, 0, 0.6);
     top: 0;
@@ -262,10 +261,12 @@
 }
 
 .footer {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    padding: 0 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 0 50px;
 }
+
 
 .footer__menu-link_active {
     text-decoration: none;
@@ -290,7 +291,7 @@
 .footer__social-list {
     display: flex;
     width: 240px;
-    margin-bottom: 115px;
+    margin-bottom: 82px;
     justify-self: end;
     gap: 48px;
 }
